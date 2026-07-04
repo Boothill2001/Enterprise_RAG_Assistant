@@ -1,0 +1,7 @@
+{
+  "hr_manager": ["hr"],
+  "accountant": ["finance"],
+  "engineer": ["engineering"],
+  "legal_counsel": ["legal"],
+  "admin": ["hr", "finance", "engineering", "legal"]
+}

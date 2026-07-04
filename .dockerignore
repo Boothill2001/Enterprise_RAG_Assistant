@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.git/
+.env
+qdrant_data/
+data/enterprise.db
+data/bm25_index.pkl
+data/eval/eval_report.json
+*.egg-info/

@@ -1,0 +1,8 @@
+streamlit>=1.36
+qdrant-client>=1.9
+sentence-transformers>=2.7
+rank-bm25>=0.2
+langchain-openai>=0.2
+langchain-core>=0.3
+python-dotenv
+requests

@@ -1,0 +1,312 @@
+[
+  {
+    "question": "How many annual leave days does a new employee get?",
+    "expected_answer": "12 days of paid annual leave per year",
+    "ground_truth_sources": ["hr/leave_policy.md"],
+    "required_role": "hr_manager",
+    "intent": "rag"
+  },
+  {
+    "question": "What is the maternity leave duration?",
+    "expected_answer": "6 months of maternity leave",
+    "ground_truth_sources": ["hr/leave_policy.md"],
+    "required_role": "hr_manager",
+    "intent": "rag"
+  },
+  {
+    "question": "How many leave days can be carried over to the next year?",
+    "expected_answer": "Maximum 5 days, expires March 31",
+    "ground_truth_sources": ["hr/leave_policy.md"],
+    "required_role": "hr_manager",
+    "intent": "rag"
+  },
+  {
+    "question": "What happens at Day 30 of onboarding?",
+    "expected_answer": "Department introduction should be complete",
+    "ground_truth_sources": ["hr/onboarding.md"],
+    "required_role": "hr_manager",
+    "intent": "rag"
+  },
+  {
+    "question": "What laptop options are available for new hires?",
+    "expected_answer": "MacBook Pro or ThinkPad",
+    "ground_truth_sources": ["hr/onboarding.md"],
+    "required_role": "hr_manager",
+    "intent": "rag"
+  },
+  {
+    "question": "What is the salary range for a Senior Engineer (L3)?",
+    "expected_answer": "35-55 million VND per month",
+    "ground_truth_sources": ["hr/salary_bands.md"],
+    "required_role": "hr_manager",
+    "intent": "rag"
+  },
+  {
+    "question": "What is the minimum rating required for promotion?",
+    "expected_answer": "Minimum 2 consecutive Exceeds Expectations ratings",
+    "ground_truth_sources": ["hr/performance_review.md"],
+    "required_role": "hr_manager",
+    "intent": "rag"
+  },
+  {
+    "question": "What is the annual learning budget per employee?",
+    "expected_answer": "10 million VND per year",
+    "ground_truth_sources": ["hr/benefits.md"],
+    "required_role": "hr_manager",
+    "intent": "rag"
+  },
+  {
+    "question": "How many remote work days are allowed per week?",
+    "expected_answer": "2 days per week for L2 and above",
+    "ground_truth_sources": ["hr/benefits.md"],
+    "required_role": "hr_manager",
+    "intent": "rag"
+  },
+  {
+    "question": "What is the annual health check provider?",
+    "expected_answer": "Vinmec",
+    "ground_truth_sources": ["hr/benefits.md"],
+    "required_role": "hr_manager",
+    "intent": "rag"
+  },
+  {
+    "question": "What was the total revenue in Q3 2025?",
+    "expected_answer": "45 billion VND",
+    "ground_truth_sources": ["finance/q3_revenue_report.md"],
+    "required_role": "accountant",
+    "intent": "rag"
+  },
+  {
+    "question": "What is the gross margin reported in Q3?",
+    "expected_answer": "60%",
+    "ground_truth_sources": ["finance/q3_revenue_report.md"],
+    "required_role": "accountant",
+    "intent": "rag"
+  },
+  {
+    "question": "What is the expense approval limit for a team lead?",
+    "expected_answer": "Under 5 million VND",
+    "ground_truth_sources": ["finance/expense_policy.md"],
+    "required_role": "accountant",
+    "intent": "rag"
+  },
+  {
+    "question": "What is the per diem rate for international travel?",
+    "expected_answer": "3 million VND per day",
+    "ground_truth_sources": ["finance/expense_policy.md"],
+    "required_role": "accountant",
+    "intent": "rag"
+  },
+  {
+    "question": "What is the total budget for 2026?",
+    "expected_answer": "180 billion VND",
+    "ground_truth_sources": ["finance/budget_2026.md"],
+    "required_role": "accountant",
+    "intent": "rag"
+  },
+  {
+    "question": "How many new hires are planned for 2026?",
+    "expected_answer": "45 new hires",
+    "ground_truth_sources": ["finance/budget_2026.md"],
+    "required_role": "accountant",
+    "intent": "rag"
+  },
+  {
+    "question": "What are the standard payment terms for domestic invoices?",
+    "expected_answer": "Net 30 days",
+    "ground_truth_sources": ["finance/invoice_guidelines.md"],
+    "required_role": "accountant",
+    "intent": "rag"
+  },
+  {
+    "question": "What is the VAT rate for software licenses?",
+    "expected_answer": "8%",
+    "ground_truth_sources": ["finance/invoice_guidelines.md"],
+    "required_role": "accountant",
+    "intent": "rag"
+  },
+  {
+    "question": "What is the API rate limiting policy?",
+    "expected_answer": "1000 requests per minute per client",
+    "ground_truth_sources": ["engineering/api_guidelines.md"],
+    "required_role": "engineer",
+    "intent": "rag"
+  },
+  {
+    "question": "What is the JWT token expiry time?",
+    "expected_answer": "1 hour, with 30-day refresh token",
+    "ground_truth_sources": ["engineering/api_guidelines.md"],
+    "required_role": "engineer",
+    "intent": "rag"
+  },
+  {
+    "question": "What is the response time SLA for a SEV1 incident?",
+    "expected_answer": "Less than 15 minutes",
+    "ground_truth_sources": ["engineering/incident_playbook.md"],
+    "required_role": "engineer",
+    "intent": "rag"
+  },
+  {
+    "question": "What is the uptime SLA target for Tier-1 services?",
+    "expected_answer": "99.95%",
+    "ground_truth_sources": ["engineering/incident_playbook.md"],
+    "required_role": "engineer",
+    "intent": "rag"
+  },
+  {
+    "question": "What cloud provider and region is used for primary infrastructure?",
+    "expected_answer": "AWS ap-southeast-1 (Singapore)",
+    "ground_truth_sources": ["engineering/infra_architecture.md"],
+    "required_role": "engineer",
+    "intent": "rag"
+  },
+  {
+    "question": "What is the minimum test coverage required for new code?",
+    "expected_answer": "80%",
+    "ground_truth_sources": ["engineering/coding_standards.md"],
+    "required_role": "engineer",
+    "intent": "rag"
+  },
+  {
+    "question": "What is the code review SLA for normal PRs?",
+    "expected_answer": "24 hours",
+    "ground_truth_sources": ["engineering/coding_standards.md"],
+    "required_role": "engineer",
+    "intent": "rag"
+  },
+  {
+    "question": "What percentage of traffic goes to canary before full rollout?",
+    "expected_answer": "5% for 30 minutes",
+    "ground_truth_sources": ["engineering/deployment_guide.md"],
+    "required_role": "engineer",
+    "intent": "rag"
+  },
+  {
+    "question": "When is the annual deploy freeze?",
+    "expected_answer": "December 20 to January 5",
+    "ground_truth_sources": ["engineering/deployment_guide.md"],
+    "required_role": "engineer",
+    "intent": "rag"
+  },
+  {
+    "question": "What is the NDA duration?",
+    "expected_answer": "2 years from signing",
+    "ground_truth_sources": ["legal/nda_template.md"],
+    "required_role": "legal_counsel",
+    "intent": "rag"
+  },
+  {
+    "question": "What is the liquidated damages amount for NDA breach?",
+    "expected_answer": "500 million VND",
+    "ground_truth_sources": ["legal/nda_template.md"],
+    "required_role": "legal_counsel",
+    "intent": "rag"
+  },
+  {
+    "question": "What is the vendor warranty period for software?",
+    "expected_answer": "12 months",
+    "ground_truth_sources": ["legal/vendor_contract.md"],
+    "required_role": "legal_counsel",
+    "intent": "rag"
+  },
+  {
+    "question": "How long is customer data retained after contract ends?",
+    "expected_answer": "3 years, then permanently deleted",
+    "ground_truth_sources": ["legal/data_retention_policy.md"],
+    "required_role": "legal_counsel",
+    "intent": "rag"
+  },
+  {
+    "question": "What is the data breach notification deadline to authorities?",
+    "expected_answer": "72 hours",
+    "ground_truth_sources": ["legal/data_retention_policy.md"],
+    "required_role": "legal_counsel",
+    "intent": "rag"
+  },
+  {
+    "question": "When is the ISO 27001 recertification audit?",
+    "expected_answer": "October, annually",
+    "ground_truth_sources": ["legal/compliance_checklist.md"],
+    "required_role": "legal_counsel",
+    "intent": "rag"
+  },
+  {
+    "question": "What is the maximum gift value allowed under anti-corruption policy?",
+    "expected_answer": "2 million VND",
+    "ground_truth_sources": ["legal/compliance_checklist.md"],
+    "required_role": "legal_counsel",
+    "intent": "rag"
+  },
+  {
+    "question": "What is the total revenue from the engineering department across all quarters in 2025?",
+    "expected_answer": "108,000,000,000 VND (108 billion)",
+    "ground_truth_sources": [],
+    "required_role": "accountant",
+    "intent": "sql"
+  },
+  {
+    "question": "How many employees are in the engineering department?",
+    "expected_answer": "15",
+    "ground_truth_sources": [],
+    "required_role": "admin",
+    "intent": "sql"
+  },
+  {
+    "question": "What is the average salary in the engineering department?",
+    "expected_answer": "Approximately 40,066,667 VND",
+    "ground_truth_sources": [],
+    "required_role": "admin",
+    "intent": "sql"
+  },
+  {
+    "question": "Who is the highest paid employee?",
+    "expected_answer": "Tran Quoc Phong (CFO), 95,000,000 VND",
+    "ground_truth_sources": [],
+    "required_role": "admin",
+    "intent": "sql"
+  },
+  {
+    "question": "Calculate 15% VAT on 340 million VND",
+    "expected_answer": "51,000,000 VND",
+    "ground_truth_sources": [],
+    "required_role": "accountant",
+    "intent": "calculator"
+  },
+  {
+    "question": "What is 28 billion divided by 45 billion as a percentage?",
+    "expected_answer": "62.22%",
+    "ground_truth_sources": [],
+    "required_role": "accountant",
+    "intent": "calculator"
+  },
+  {
+    "question": "What is the weather like today?",
+    "expected_answer": "",
+    "ground_truth_sources": [],
+    "required_role": "admin",
+    "intent": "out_of_scope"
+  },
+  {
+    "question": "Tell me about the latest iPhone",
+    "expected_answer": "",
+    "ground_truth_sources": [],
+    "required_role": "admin",
+    "intent": "out_of_scope"
+  },
+  {
+    "question": "What is the salary range for a Senior Engineer?",
+    "expected_answer": "",
+    "ground_truth_sources": [],
+    "required_role": "engineer",
+    "intent": "rbac_test",
+    "_comment": "Engineer role should NOT see HR docs - expect refusal"
+  },
+  {
+    "question": "What is the company's total budget for 2026?",
+    "expected_answer": "",
+    "ground_truth_sources": [],
+    "required_role": "legal_counsel",
+    "intent": "rbac_test",
+    "_comment": "Legal role should NOT see finance docs - expect refusal"
+  }
+]
