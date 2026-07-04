@@ -12,6 +12,10 @@ Built as a realistic demo of the patterns enterprise AI teams actually ship — 
 ### Admin — Cross-Department Budget Query
 ![Admin Budget Query](assets/demo_admin_budget.png)
 
+### Engineer — RBAC Blocks Unauthorized Access
+
+![Engineer RBAC Block](assets/demo_engineer_rbac.png)
+
 ### Evaluation Dashboard
 ![Evaluation Tab](assets/demo_eval_tab.png)
 
