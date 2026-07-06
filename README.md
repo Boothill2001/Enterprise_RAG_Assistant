@@ -1,6 +1,6 @@
 # 🏢 Enterprise RAG Assistant
 
-An enterprise-grade Internal AI Assistant that answers employee questions over 5,000+ internal documents with **role-based access control**, **tool calling**, **anti-hallucination guardrails**, and a built-in **evaluation harness**.
+An enterprise-grade Internal AI Assistant that answers employee questions over internal documents with **role-based access control**, **tool calling**, **anti-hallucination guardrails**, and a built-in **evaluation harness**.
 
 Built as a realistic demo of the patterns enterprise AI teams actually ship — not another "embed and pray" tutorial.
 
@@ -181,5 +181,5 @@ This is part of a 3-project GenAI portfolio:
 **Nguyen Minh Tri** — Senior AI Engineer focused on shipping LLM systems that survive real users and real traffic.
 
 - Email: <minhtri.cm2001@gmail.com>
-- [LinkedIn](https://www.linkedin.com/in/your-profile)
+- [LinkedIn](https://www.linkedin.com/in/minhtri-nguyen-cm2001)
 - [GitHub](https://github.com/Boothill2001)
